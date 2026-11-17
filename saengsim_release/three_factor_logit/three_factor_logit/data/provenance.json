@@ -1,0 +1,30 @@
+{
+  "source_package": "M4_researcher_dates_package.zip",
+  "source_package_sha256": "ef40452fc32075df5665c722028df9f0302e873ffd6d75cbe9cd95c3ee380441",
+  "base_commit": "a964686c763b04275fb4ff977e36816e8641b9dc",
+  "branch": "models/three-factor-logit",
+  "files": {
+    "M4_QP_확장보수.csv": "c9877ac35bde005f87e3fda773ea169e8769714c1004c15598a55f3f4bff5cb6",
+    "annotated_G_date_corrected.csv": "4812be92ac53fab1befdcba90fb45955e1e5f22ecc10ba75f911904114ef1d27",
+    "input_M3_Q.csv": "be1eda4a8ea1eb3cfe2839919d561a99ba92d0afbb4305114dfd796fdf519fb9",
+    "M4_QP_연구자보완.csv": "d0840b830afd74f55f86cf2aac04e5efa757763015bd67564177935ed00539eb",
+    "input_M1_Q.csv": "18d5b50e0e2ff37d72225448cb6f37c5b658044cbf64782492023e0c8190f38e",
+    "M4_QP_명시연대대조.csv": "9a52462dc0781f28895ef2b3a585e5c868745a5a7957bd360be5fbeae0dc9021"
+  },
+  "negative_extension": {
+    "parent_commit": "07dea98b156ba652501e2f8ca0f799e2fb1cf17e",
+    "scope": [
+      "N",
+      "PN"
+    ],
+    "type_control_prior_sd": 3,
+    "files": {
+      "M2_N_연구자보완.csv": "9c01a244df24718fb5095216a7d004ea4b948a71926c981e44d33ca35efc0d75",
+      "negative_provenance.json": "806e47d533b9b5f5344fe38a1ea81dbe7ab66eb97f3ea38482e45cdfac9fe1be",
+      "negative_candidates.csv.gz": "9bf6fce9a04067297036ba0eb0f9181c8a406f4b7dec197dd45c3f754b0777dd",
+      "M2_N_명시연대대조.csv": "3ac9d5eb818839cebbadad63b50a8bcf8bed9bb551c8a6ca6344861063deba2e",
+      "M2_N_확장보수.csv": "bcdf81eb49c9b79a41e149cfeb8b7ee01375cf69d4d4fe399df81ac2ee18debe",
+      "document_metadata_corrected.csv": "7f5d84ecdd10152d8060ff57bb0065ca2948af890ab76dfff0e730449530fa94"
+    }
+  }
+}
