@@ -1,0 +1,17 @@
+{
+  "source_file": "M2_QP_逐条候选句型人工核查表.csv",
+  "source_sha256": "fdcc832bf641ec55e41074957aac7da25cb522defa2b1dfeea5615190a30262e",
+  "scope": "M2 main-analysis Q/P candidates only",
+  "counts": {
+    "Q": [
+      19217,
+      344
+    ],
+    "P": [
+      3167,
+      22
+    ]
+  },
+  "unit": "기존 자동분절 구간; 연구자 문형 검토 미완료",
+  "notes": "K0949 uses M2 researcher-supplemented year 1750.5; original dating remains in source audit CSV. Do not interpret as fully reviewed gold labels."
+}
