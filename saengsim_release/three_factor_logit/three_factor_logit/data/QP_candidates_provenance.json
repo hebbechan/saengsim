@@ -1,0 +1,21 @@
+{
+  "upstream_population_file": "audit_population.csv.gz",
+  "upstream_population_sha256": "7e1b424aedadcaac23976ebbbf4334bc8a99ccfb7b15594e17f921ae7a923a7a",
+  "published_file": "QP_candidates.csv.gz",
+  "published_file_sha256": "f6f0958e07bf0cddc4b5ea1faeb15e8ee3bd98810d786ebbaee7ec4c93a2acc1",
+  "scope": "M2 main-analysis Q/P candidates only",
+  "filter_description_ko": "Q/P 후보, 1500~1955년, 명시 단일년 또는 K0949 연구자 지정 1750.5, K0228 제외",
+  "counts": {
+    "Q": [
+      19217,
+      344
+    ],
+    "P": [
+      3167,
+      22
+    ]
+  },
+  "unit": "기존 자동분절 구간; 연구자 문형 검토 미완료",
+  "K0949_note": "Q/P 집계와 동일한 사용자 지정18세기 표기를 적용; N 집계의 연대수준 표기와 다름",
+  "aggregate_check": "M4_QP_연구자보완.csv와 문헌·연대·자료층·문형별 n/y 전부 일치"
+}

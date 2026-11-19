@@ -1,0 +1,10 @@
+{
+  "source": "models/data/unit_index.csv.gz",
+  "source_sha256": "7e1b424aedadcaac23976ebbbf4334bc8a99ccfb7b15594e17f921ae7a923a7a",
+  "negative_regex": "[디지티치]\\s*(?:아니|않|못|몯)|(?:^|\\s)(?:못|몯|아니)(?=\\s|[ᄒ하])|(?:^|\\s)안\\s+(?!(?:에|에서|으로|쪽)(?:\\s|$))\\w",
+  "negative_causative_exclusion_regex": "(?:못|몯|아니)\\s*(?:ᄒᆞ|하|ᄒᆡ|해)(?:게|긔)\\s*(?:ᄒᆞ|하|ᄒᆡ|해)",
+  "prohibitive_exclusion_regex": "[디지티치]\\s*(?:말|마ᄅᆞ|마라|마오|마소)",
+  "candidate_count": 39613,
+  "target_candidate_count": 753,
+  "unit": "기존 자동분절 구간; 기존Q/P/P_모호 제외; 인간검토 미완료"
+}
